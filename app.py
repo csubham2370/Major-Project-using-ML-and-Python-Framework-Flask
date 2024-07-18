@@ -249,8 +249,8 @@ def send_reset_email(email, token): #This function send_reset_email(email, token
     # Example using SMTP
     smtp_server = 'smtp.gmail.com'
     smtp_port = 587
-    sender_email = 'subhoy2370@gmail.com'
-    sender_password = 'zytp ymro kshi kyxx'
+    sender_email = 'abcd@gmail.com'
+    sender_password = '*** *** *** ***'
     receiver_email = email  #This line sets the receiver's email address to the provided email parameter.
 
     message = MIMEMultipart()       #Here, you're creating an instance of MIMEMultipart() to compose the email 
